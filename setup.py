@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="avantis_trader_sdk",
-    version="0.8.12",
+    version="0.8.14",
     author="Avantis Labs",
     author_email="yug@avantisfi.com",
     description="SDK for interacting with Avantis trading contracts.",
@@ -11,13 +11,13 @@ setup(
     url="https://avantisfi.com/",
     packages=find_packages(),
     install_requires=[
-        "web3>=6.15.1,<7",
+        "web3>=7.8.0",
         "pydantic>=2.8.2,<3",
         "websockets>=12.0,<14",
         "boto3>=1.35.44,<2",
-        "eth_account>=0.10.0,<0.14",
-        "toolz>=0.12.1,<1",
-        "eth_utils>=2.1.0,<5",
+        "eth_account>=0.13.7",
+        "toolz>=0.11.2,<0.12",
+        "eth_utils>=2.1.0",
         "pyasn1>=0.6.1,<1",
     ],
     classifiers=[
